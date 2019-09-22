@@ -53,10 +53,10 @@ class InstagramBot:
             except Exception as e:
                 time.sleep(4)
 
-silkyIG = InstagramBot("InstagramAccountName", "Password") # Add Account and Password
+silkyIG = InstagramBot("silkysmooth88", "shitshit1") # Add Account and Password
 silkyIG.login()
 silkyIG.like_photo('Photo to start liking') # Photo to like
 
-hashtags = ['Hashtags'] # Add hashtag
+hashtags = ['instaostkanten'] # Add hashtag
 
 [silkyIG.like_photo(tag) for tag in hashtags]
