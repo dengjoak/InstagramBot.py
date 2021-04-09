@@ -53,7 +53,7 @@ class InstagramBot:
             except Exception as e:
                 time.sleep(4)
 
-silkyIG = InstagramBot("silkysmooth88", "shitshit1") # Add Account and Password
+silkyIG = InstagramBot("xxxxx", "xxxxxx") # Add Account and Password
 silkyIG.login()
 silkyIG.like_photo('Photo to start liking') # Photo to like
 
